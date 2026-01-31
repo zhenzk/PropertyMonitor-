@@ -32,7 +32,7 @@
 
 
 
-<img title="" src="file:///D:/python/PropertyMonitor-/assert/Snipaste_2026-01-31_19-27-24.png" alt="" width="587">
+<img title="" src="./assert/Snipaste_2026-01-31_19-27-24.png" alt="" width="587">
 
 
 

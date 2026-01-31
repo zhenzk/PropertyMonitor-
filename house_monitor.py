@@ -2,31 +2,23 @@
 import requests
 from datetime import datetime
 import time
-# 原来监控脚本，不要动！
 # 店铺配置
 STORES = {
-    # "彩虹城玖都公馆": {
-    #     "url": "https://www.huhhothome.cn/api/dynamicapi/apiview/viewdata?application=jqHj7ddxI1smOEkmKSD&apiview=house&_localversion=false&domainId=LAMDyAh4HSdnug1KdKL",
-    #     "payload": {
-    #         "lines": 10, "_currpage": 1, "status": "已上架", "houseType": "保障房",
-    #         "houseEstateid": "6WD0LunYVjdwWfNbJyc"
-    #     }
-    # },
-    "万锦店": {
+    "wj": {
         "url": "https://www.huhhothome.cn/api/dynamicapi/apiview/viewdata?application=jqHj7ddxI1smOEkmKSD&apiview=house&_localversion=false&domainId=LAMDyAh4HSdnug1KdKL",
         "payload": {
             "lines": 10, "_currpage": 1, "status": "已上架", "houseType": "保障房",
             "houseEstateid": "hB9zPAeL4ZI8r14ied4"
         }
     },
-    "香林郡店": {
+    "xlj": {
         "url": "https://www.huhhothome.cn/api/dynamicapi/apiview/viewdata?application=jqHj7ddxI1smOEkmKSD&apiview=house&_localversion=false&domainId=LAMDyAh4HSdnug1KdKL",
         "payload": {
             "lines": 10, "_currpage": 1, "status": "已上架", "houseType": "保障房",
             "houseEstateid": "7ZvBYfJp0A2n4GpjArv"
         }
     },
-    "世源佳境店": {
+    "sjjy": {
         "url": "https://www.huhhothome.cn/api/dynamicapi/apiview/viewdata?application=jqHj7ddxI1smOEkmKSD&apiview=house&_localversion=false&domainId=LAMDyAh4HSdnug1KdKL",
         "payload": {
             "lines": 10, "_currpage": 1, "status": "已上架", "houseType": "保障房",
